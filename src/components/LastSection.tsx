@@ -55,39 +55,39 @@ const LastSection = () => {
             name="name"
             placeholder="Name"
             className="px-4 py-4 focus:outline-none"
-            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)' }}
+            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)', borderRadius: '8px' }}
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
             className="px-4 py-4 focus:outline-none"
-            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)' }}
+            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)', borderRadius: '8px' }}
           />
           <input
             type="text"
             name="subject"
             placeholder="Subject"
             className="px-4 py-4 focus:outline-none"
-            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)' }}
+            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)', borderRadius: '8px' }}
           />
           <input
             type="tel"
             name="phone"
             placeholder="Phone"
             className="px-4 py-4 focus:outline-none"
-            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)' }}
+            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)', borderRadius: '8px' }}
           />
           <textarea
             name="message"
             rows={6}
             placeholder="Write message"
             className="px-4 py-4 resize-none focus:outline-none"
-            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)' }}
+            style={{ background: 'var(--theme-gray)', color: 'var(--theme-text)', borderRadius: '8px' }}
           ></textarea>
           <button
             type="submit"
-            className="font-semibold py-3 mt-2 transition-colors"
+            className="font-semibold  rounded-3xl py-3 mt-2 transition-colors"
             style={{ border: '2px solid var(--theme-purple)', color: 'var(--theme-purple)', background: 'var(--theme-bg)' }}
           >
             Send Message

@@ -73,7 +73,7 @@ const WhatweDo = () => {
   return (
     <motion.section
       ref={ref}
-      className="py-20 px-4 md:px-0 flex justify-center items-center min-h-[90vh]"
+      className="py-20 px-6 md:px-0 flex justify-center items-center min-h-[90vh]"
       style={{ background: 'var(--theme-bg)', color: 'var(--theme-text)' }}
       initial="hidden"
       animate={controls}

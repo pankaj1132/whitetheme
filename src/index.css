@@ -1,6 +1,6 @@
 @import "tailwindcss";
 :root {
-  --theme-bg: #fff;
+  --theme-bg: ##FFFFFF;
   --theme-text: #222;
   --theme-yellow: #FFD600;
   --theme-purple: #7C3AED;
@@ -11,6 +11,7 @@
   color-scheme: light;
   color: var(--theme-text);
   background-color: var(--theme-bg);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

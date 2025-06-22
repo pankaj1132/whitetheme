@@ -21,10 +21,10 @@ const Navbar = () => {
 
       {/* Sidebar Navbar - Desktop & Mobile Overlay */}
       <aside
-        className={`w-72 h-full flex flex-col fixed justify-between border-4 px-10 py-12 z-40 transition-transform duration-300 ${mobileOpen ? 'translate-x-0' : '-translate-x-full'}`}
-        style={{ background: 'var(--theme-bg)', borderColor: 'var(--theme-purple)', color: 'var(--theme-text)' }}
+        className={`w-72 h-screen md:h-full flex flex-col fixed top-0 left-0 justify-between border-2 rounded-br-2xl  rounded-tr-2xl px-10 py-12 z-40 transition-transform duration-300 bg-white ${mobileOpen ? 'translate-x-0' : '-translate-x-full'}`}
+        style={{ borderColor: 'var(--theme-purple)', color: 'var(--theme-text)' }}
       >
-        <div>
+        <div >
           <div className="flex items-center space-x-2 mb-20">
             <img alt="logo" className="w-8 h-8" height="32" src={logo} width="32" />
             <span className="font-extrabold text-lg select-none" style={{ color: 'var(--theme-purple)' }}>
@@ -66,7 +66,7 @@ const Navbar = () => {
               offset={-70}
               onClick={() => setMobileOpen(false)}
             >
-              Service
+              SERVICE
             </Link>
             <Link
               className="transition cursor-pointer"
@@ -94,7 +94,7 @@ const Navbar = () => {
             </Link>
           </nav>
         </div>
-        <div className="flex-grow"></div>
+        
         <div className="flex flex-col items-center mb-2">
           <div className="flex space-x-6 text-[#9e9e9e] text-lg mb-2">
             <a aria-label="Facebook" className="hover:text-[#4efb9f] transition transform hover:scale-125 duration-300" href="#">
@@ -110,7 +110,7 @@ const Navbar = () => {
         </div>
         {/* Close Icon for Mobile and Desktop */}
         <button
-          className="absolute top-6 right-6 text-black text-3xl"
+          className="absolute top-6 right-6  text-black text-3xl"
           onClick={() => setMobileOpen(false)}
           aria-label="Close Menu"
           style={{ display: mobileOpen ? 'block' : 'none' }}
